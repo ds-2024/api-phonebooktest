@@ -50,4 +50,4 @@ jobs:
            sudo docker pull sophia1106/phonebooktest:latest
            sudo docker stop phonebooktest || true
            sudo docker rm phonebooktest || true
-           sudo docker run -d --name phonebooktest -p 9000:9000 sophia1106/phonebooktest:latest
+           sudo docker run -d --name phonebooktest -p 9090:9090 sophia1106/phonebooktest:latest
