@@ -22,6 +22,7 @@ public class PhonebookTestController {
 	public List<PersonTestVo> list() {
 		System.out.println("PhonebookTestController.list()");
 
+		
 		List<PersonTestVo> personList = phonebookTestService.exePhonebookList();
 
 		System.out.println(personList);
