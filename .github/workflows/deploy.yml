@@ -1,12 +1,12 @@
 name: Deploy PhonebookApp #워크플로우 이름
 
-on:
-  workflow_dispatch:
-  
 #on:
-#  push:  
-#    branches:
-#      - master #master 또는 프로젝트의 기본 브랜치명 깃허브에 push가 되면 작동
+#  workflow_dispatch:
+  
+on:
+  push:  
+    branches:
+      - master #master 또는 프로젝트의 기본 브랜치명 깃허브에 push가 되면 작동
 
 jobs:
   build-and-deploy:
